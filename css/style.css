@@ -5,6 +5,10 @@ body{
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
     
 .container{
     width: 900px;
@@ -20,15 +24,16 @@ body{
 ul li{
     list-style-type: none;
     padding: 0 20px;
+    
 }
 
 li a{
-    color: #000000;
-    padding: 20px 20px;
-    border-radius: 50%;
-    background-color: #fff;
     text-decoration: none;
+    color: #000000;
+    text-align: center; 
+    line-height: 50px; 
 }
+
 
 /* main */
 
@@ -67,5 +72,13 @@ li a{
 .navbar{
     position: fixed;
     right: 10px;
-    top: 50px;
+    top: 10px;
+}
+.round{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+
 }
