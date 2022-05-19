@@ -1,3 +1,4 @@
+/* generics */
 body{
     padding: 0;
     margin: 0;
@@ -9,6 +10,27 @@ body{
     width: 900px;
     margin: 0 auto;
 }
+
+/* utils */
+
+.d-flex{
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+li a{
+    color: #000000;
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* main */
 
 .red-page{
     background-color: #ff0000;
@@ -38,4 +60,12 @@ body{
 .txt{
     font-size: 48px;
     text-align: center;
+}
+
+/* nav */
+
+.navbar{
+    position: fixed;
+    right: 10px;
+    top: 50px;
 }
