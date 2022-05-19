@@ -4,4 +4,38 @@ body{
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+    
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
 
+.red-page{
+    background-color: #ff0000;
+    color: #FFFF00;
+}
+
+.green-page{
+    background-color: #008000;
+    color: #FFFF00;
+}
+
+.yellow-page{
+    background-color: #FFFF00;
+    color: #008000;
+}
+.page{
+    height: 100vh;
+    width: 100%;
+}
+
+.page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt{
+    font-size: 48px;
+    text-align: center;
+}
